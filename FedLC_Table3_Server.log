@@ -1,0 +1,282 @@
+[FedLC Server] Started at 0.0.0.0:50051, device=cuda
+
+[FedLC Server] ===== ROUND 1 =====
+[FedLC Server][Round 1] POLL OPEN (timeout=600s)
+[FedLC Server][Round 1] POLL from Client 3 (1/5)
+[FedLC Server][Round 1] POLL from Client 1 (2/5)
+[FedLC Server][Round 1] POLL from Client 4 (3/5)
+[FedLC Server][Round 1] POLL from Client 2 (4/5)
+[FedLC Server][Round 1] POLL waiting... 4/5 joined | remaining ~566s
+[FedLC Server][Round 1] POLL from Client 5 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 1] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 1] UPDATE window OPEN (timeout=10800s)
+[FedLC Server][Round 1] Received UPDATE from Client 3 (claimed round=1)
+[FedLC Server][Round 1] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 1] Received UPDATE from Client 1 (claimed round=1)
+[FedLC Server][Round 1] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 1] Received UPDATE from Client 5 (claimed round=1)
+[FedLC Server][Round 1] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 1] Received UPDATE from Client 4 (claimed round=1)
+[FedLC Server][Round 1] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 1] Received UPDATE from Client 2 (claimed round=1)
+[FedLC Server][Round 1] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 1] All EXPECTED updates received
+[FedLC Server][Round 1] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 1] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 1] Top-1=41.5140% | Top-5=68.9640% | NLL=3.387075 | ECE=0.245890 | Brier=0.852088 | time=1395.92s
+
+[FedLC Server] ===== ROUND 2 =====
+[FedLC Server][Round 2] POLL OPEN (timeout=600s)
+[FedLC Server][Round 2] POLL from Client 4 (1/5)
+[FedLC Server][Round 2] POLL from Client 5 (2/5)
+[FedLC Server][Round 2] POLL from Client 1 (3/5)
+[FedLC Server][Round 2] POLL from Client 3 (4/5)
+[FedLC Server][Round 2] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 2] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 2] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 2] Received UPDATE from Client 3 (claimed round=2)
+[FedLC Server][Round 2] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 2] Received UPDATE from Client 1 (claimed round=2)
+[FedLC Server][Round 2] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 2] Received UPDATE from Client 5 (claimed round=2)
+[FedLC Server][Round 2] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 2] Received UPDATE from Client 4 (claimed round=2)
+[FedLC Server][Round 2] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 2] Received UPDATE from Client 2 (claimed round=2)
+[FedLC Server][Round 2] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 2] All EXPECTED updates received
+[FedLC Server][Round 2] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 2] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 2] Top-1=58.1860% | Top-5=83.7280% | NLL=1.932313 | ECE=0.091507 | Brier=0.595732 | time=1400.34s
+
+[FedLC Server] ===== ROUND 3 =====
+[FedLC Server][Round 3] POLL OPEN (timeout=600s)
+[FedLC Server][Round 3] POLL from Client 4 (1/5)
+[FedLC Server][Round 3] POLL from Client 5 (2/5)
+[FedLC Server][Round 3] POLL from Client 3 (3/5)
+[FedLC Server][Round 3] POLL from Client 1 (4/5)
+[FedLC Server][Round 3] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 3] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 3] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 3] Received UPDATE from Client 3 (claimed round=3)
+[FedLC Server][Round 3] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 3] Received UPDATE from Client 1 (claimed round=3)
+[FedLC Server][Round 3] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 3] Received UPDATE from Client 5 (claimed round=3)
+[FedLC Server][Round 3] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 3] Received UPDATE from Client 4 (claimed round=3)
+[FedLC Server][Round 3] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 3] Received UPDATE from Client 2 (claimed round=3)
+[FedLC Server][Round 3] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 3] All EXPECTED updates received
+[FedLC Server][Round 3] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 3] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 3] Top-1=66.6140% | Top-5=89.9520% | NLL=1.379951 | ECE=0.039995 | Brier=0.470722 | time=1401.38s
+
+[FedLC Server] ===== ROUND 4 =====
+[FedLC Server][Round 4] POLL OPEN (timeout=600s)
+[FedLC Server][Round 4] POLL from Client 4 (1/5)
+[FedLC Server][Round 4] POLL from Client 3 (2/5)
+[FedLC Server][Round 4] POLL from Client 1 (3/5)
+[FedLC Server][Round 4] POLL from Client 5 (4/5)
+[FedLC Server][Round 4] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 4] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 4] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 4] Received UPDATE from Client 3 (claimed round=4)
+[FedLC Server][Round 4] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 4] Received UPDATE from Client 1 (claimed round=4)
+[FedLC Server][Round 4] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 4] Received UPDATE from Client 5 (claimed round=4)
+[FedLC Server][Round 4] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 4] Received UPDATE from Client 4 (claimed round=4)
+[FedLC Server][Round 4] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 4] Received UPDATE from Client 2 (claimed round=4)
+[FedLC Server][Round 4] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 4] All EXPECTED updates received
+[FedLC Server][Round 4] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 4] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 4] Top-1=71.7400% | Top-5=92.5600% | NLL=1.113056 | ECE=0.037105 | Brier=0.398066 | time=1400.25s
+
+[FedLC Server] ===== ROUND 5 =====
+[FedLC Server][Round 5] POLL OPEN (timeout=600s)
+[FedLC Server][Round 5] POLL from Client 4 (1/5)
+[FedLC Server][Round 5] POLL from Client 3 (2/5)
+[FedLC Server][Round 5] POLL from Client 5 (3/5)
+[FedLC Server][Round 5] POLL from Client 1 (4/5)
+[FedLC Server][Round 5] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 5] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 5] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 5] Received UPDATE from Client 3 (claimed round=5)
+[FedLC Server][Round 5] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 5] Received UPDATE from Client 1 (claimed round=5)
+[FedLC Server][Round 5] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 5] Received UPDATE from Client 5 (claimed round=5)
+[FedLC Server][Round 5] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 5] Received UPDATE from Client 4 (claimed round=5)
+[FedLC Server][Round 5] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 5] Received UPDATE from Client 2 (claimed round=5)
+[FedLC Server][Round 5] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 5] All EXPECTED updates received
+[FedLC Server][Round 5] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 5] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 5] Top-1=75.0560% | Top-5=93.7540% | NLL=0.967788 | ECE=0.027985 | Brier=0.352875 | time=1400.10s
+
+[FedLC Server] ===== ROUND 6 =====
+[FedLC Server][Round 6] POLL OPEN (timeout=600s)
+[FedLC Server][Round 6] POLL from Client 4 (1/5)
+[FedLC Server][Round 6] POLL from Client 3 (2/5)
+[FedLC Server][Round 6] POLL from Client 5 (3/5)
+[FedLC Server][Round 6] POLL from Client 1 (4/5)
+[FedLC Server][Round 6] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 6] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 6] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 6] Received UPDATE from Client 3 (claimed round=6)
+[FedLC Server][Round 6] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 6] Received UPDATE from Client 1 (claimed round=6)
+[FedLC Server][Round 6] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 6] Received UPDATE from Client 5 (claimed round=6)
+[FedLC Server][Round 6] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 6] Received UPDATE from Client 4 (claimed round=6)
+[FedLC Server][Round 6] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 6] Received UPDATE from Client 2 (claimed round=6)
+[FedLC Server][Round 6] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 6] All EXPECTED updates received
+[FedLC Server][Round 6] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 6] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 6] Top-1=76.9400% | Top-5=94.2720% | NLL=0.891547 | ECE=0.026604 | Brier=0.326128 | time=1402.16s
+
+[FedLC Server] ===== ROUND 7 =====
+[FedLC Server][Round 7] POLL OPEN (timeout=600s)
+[FedLC Server][Round 7] POLL from Client 4 (1/5)
+[FedLC Server][Round 7] POLL from Client 5 (2/5)
+[FedLC Server][Round 7] POLL from Client 3 (3/5)
+[FedLC Server][Round 7] POLL from Client 1 (4/5)
+[FedLC Server][Round 7] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 7] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 7] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 7] Received UPDATE from Client 3 (claimed round=7)
+[FedLC Server][Round 7] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 7] Received UPDATE from Client 5 (claimed round=7)
+[FedLC Server][Round 7] ACCEPT UPDATE from Client 5 (2/5)
+[FedLC Server][Round 7] Received UPDATE from Client 1 (claimed round=7)
+[FedLC Server][Round 7] ACCEPT UPDATE from Client 1 (3/5)
+[FedLC Server][Round 7] Received UPDATE from Client 4 (claimed round=7)
+[FedLC Server][Round 7] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 7] Received UPDATE from Client 2 (claimed round=7)
+[FedLC Server][Round 7] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 7] All EXPECTED updates received
+[FedLC Server][Round 7] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 7] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 7] Top-1=78.1180% | Top-5=94.4520% | NLL=0.850606 | ECE=0.029600 | Brier=0.311553 | time=1399.49s
+
+[FedLC Server] ===== ROUND 8 =====
+[FedLC Server][Round 8] POLL OPEN (timeout=600s)
+[FedLC Server][Round 8] POLL from Client 4 (1/5)
+[FedLC Server][Round 8] POLL from Client 5 (2/5)
+[FedLC Server][Round 8] POLL from Client 1 (3/5)
+[FedLC Server][Round 8] POLL from Client 3 (4/5)
+[FedLC Server][Round 8] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 8] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 8] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 8] Received UPDATE from Client 3 (claimed round=8)
+[FedLC Server][Round 8] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 8] Received UPDATE from Client 1 (claimed round=8)
+[FedLC Server][Round 8] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 8] Received UPDATE from Client 5 (claimed round=8)
+[FedLC Server][Round 8] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 8] Received UPDATE from Client 4 (claimed round=8)
+[FedLC Server][Round 8] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 8] Received UPDATE from Client 2 (claimed round=8)
+[FedLC Server][Round 8] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 8] All EXPECTED updates received
+[FedLC Server][Round 8] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 8] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 8] Top-1=78.9280% | Top-5=94.7960% | NLL=0.818176 | ECE=0.034321 | Brier=0.300255 | time=1399.31s
+
+[FedLC Server] ===== ROUND 9 =====
+[FedLC Server][Round 9] POLL OPEN (timeout=600s)
+[FedLC Server][Round 9] POLL from Client 4 (1/5)
+[FedLC Server][Round 9] POLL from Client 5 (2/5)
+[FedLC Server][Round 9] POLL from Client 1 (3/5)
+[FedLC Server][Round 9] POLL from Client 3 (4/5)
+[FedLC Server][Round 9] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 9] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 9] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 9] Received UPDATE from Client 3 (claimed round=9)
+[FedLC Server][Round 9] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 9] Received UPDATE from Client 1 (claimed round=9)
+[FedLC Server][Round 9] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 9] Received UPDATE from Client 5 (claimed round=9)
+[FedLC Server][Round 9] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 9] Received UPDATE from Client 4 (claimed round=9)
+[FedLC Server][Round 9] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 9] Received UPDATE from Client 2 (claimed round=9)
+[FedLC Server][Round 9] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 9] All EXPECTED updates received
+[FedLC Server][Round 9] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 9] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 9] Top-1=79.2760% | Top-5=94.9380% | NLL=0.800441 | ECE=0.039685 | Brier=0.294116 | time=1399.40s
+
+[FedLC Server] ===== ROUND 10 =====
+[FedLC Server][Round 10] POLL OPEN (timeout=600s)
+[FedLC Server][Round 10] POLL from Client 4 (1/5)
+[FedLC Server][Round 10] POLL from Client 5 (2/5)
+[FedLC Server][Round 10] POLL from Client 1 (3/5)
+[FedLC Server][Round 10] POLL from Client 3 (4/5)
+[FedLC Server][Round 10] POLL from Client 2 (5/5)
+[FedLC Server] EXPECTED reached -> exit POLL
+[FedLC Server][Round 10] POLL CLOSED -> 5 clients joined
+[FedLC Server][Round 10] UPDATE window OPEN (timeout=14400s)
+[FedLC Server][Round 10] Received UPDATE from Client 3 (claimed round=10)
+[FedLC Server][Round 10] ACCEPT UPDATE from Client 3 (1/5)
+[FedLC Server][Round 10] Received UPDATE from Client 1 (claimed round=10)
+[FedLC Server][Round 10] ACCEPT UPDATE from Client 1 (2/5)
+[FedLC Server][Round 10] Received UPDATE from Client 5 (claimed round=10)
+[FedLC Server][Round 10] ACCEPT UPDATE from Client 5 (3/5)
+[FedLC Server][Round 10] Received UPDATE from Client 4 (claimed round=10)
+[FedLC Server][Round 10] ACCEPT UPDATE from Client 4 (4/5)
+[FedLC Server][Round 10] Received UPDATE from Client 2 (claimed round=10)
+[FedLC Server][Round 10] ACCEPT UPDATE from Client 2 (5/5)
+[FedLC Server][Round 10] All EXPECTED updates received
+[FedLC Server][Round 10] UPDATE window CLOSED -> 5 updates received from clients: [1, 2, 3, 4, 5]
+[FedLC Server][Round 10] New BEST checkpoint saved -> fedlc_table3_outputs/FedLC_Table3_best.pth
+[FedLC Server][Round 10] Top-1=79.7800% | Top-5=95.0040% | NLL=0.786817 | ECE=0.041844 | Brier=0.288801 | time=1399.14s
+[FedLC Server] MAX_ROUNDS reached -> Broadcasting TRAINING_FINISHED
+[FedLC Server] Broadcasting TRAINING_FINISHED to clients
+
+[FedLC Server] Final evaluation
+
+=========== FINAL RESULT ===========
+Method         : FedLC
+Alpha          : 0.1
+Top-1 accuracy : 79.7800%
+Top-5 accuracy : 95.0040%
+NLL/Loss       : 0.786817
+ECE            : 0.041844
+Brier Score    : 0.288801
+Comm. Rounds   : 10/10
+Total FL time  : 14492.99s (241.55 min)
+==================================
+
+=========== TIME BREAKDOWN ===========
+Round 01: 1395.92s (23.27 min)
+Round 02: 1400.34s (23.34 min)
+Round 03: 1401.38s (23.36 min)
+Round 04: 1400.25s (23.34 min)
+Round 05: 1400.10s (23.33 min)
+Round 06: 1402.16s (23.37 min)
+Round 07: 1399.49s (23.32 min)
+Round 08: 1399.31s (23.32 min)
+Round 09: 1399.40s (23.32 min)
+Round 10: 1399.14s (23.32 min)
+Total FL Time: 14492.99s (241.55 min)
+======================================
