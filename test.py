@@ -11,3 +11,5 @@ if a == 0:
 else:
     x = -b / a
     print("Nghiệm của phương trình là x =", x)
+
+    aaaaaaaa
